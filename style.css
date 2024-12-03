@@ -1,7 +1,7 @@
 * {
     font-family: "Cutive Mono", monospace;
-    color: rgb(21, 20, 20);
-    background-color: rgb(89, 101, 70);
+    color: rgb(55, 55, 55);
+    background-color: rgb(214, 255, 147);
   }
 
 /* NAVBAR */
@@ -99,6 +99,7 @@ a:visited{
     width: auto;   
     display: block;
     margin: auto;
+    border-radius: 8rem;
   }
 
   h3 {
@@ -116,7 +117,7 @@ a:visited{
 
   #project-title {
     background-color: rgb(21, 20, 20);
-    color:rgb(89, 101, 70);
+    color:rgb(214, 255, 147);
   }
 
   /* ABOUT ME */
@@ -132,7 +133,7 @@ a:visited{
   .selfdescription {
     text-align: justify;
     background-color: rgb(21, 20, 20);
-    color:rgb(89, 101, 70);
+    color:rgb(214, 255, 147);
   }
 
   /* PROJECTS */
@@ -169,10 +170,12 @@ a:visited{
       padding: 0px;
     }
     background-color: rgb(21, 20, 20);
-    color: rgb(89, 101, 70);
+    color: rgb(214, 255, 147);
   }
 
   .linkedin { 
+    color: (214, 255, 147);
+    background-color: rgb(21, 20, 20);
     padding: 0.02rem;
     border: 0.5rem;
   }
@@ -184,7 +187,7 @@ a:visited{
   label {
     margin-top: 1rem;
     background-color: rgb(21, 20, 20);
-    color: rgb(89, 101, 70);
+    color: rgb(214, 255, 147);
   }
 
   input {
