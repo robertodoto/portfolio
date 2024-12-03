@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ita">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Roberto Doto</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactme">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <div id="firstimpact" class="firstimpact">
+        <h1>Roberto Doto</h1>
+        <h3 class="developer">Full stack developer</h3>
+        <img src="./media/DSCF2593.jpg" alt="Roberto Doto">
+        <h2>Personal Portfolio</h2>
+    </div>
+
+    <div id="aboutme" class="aboutme">
+        <h3>About me</h3>
+        <p class="selfdescription">Welcome to my portfolio! 
+            My name is Roberto Doto, and I have a diverse background that combines language studies and technology. 
+            I earned my degree in Languages and Teaching Italian as a Foreign Language, 
+            which led me to spend several rewarding years teaching in the field of integration. 
+          <br><br>Throughout my teaching career, I developed a passion for helping others connect through language and culture. 
+          However, I felt a strong desire to embrace new challenges and explore the world of technology. 
+          This motivated me to enroll in the Full Stack Engineer course at Codecademy, 
+          where I am honing my skills in web development and programming.
+          <br><br>I am excited to merge my educational background with 
+          my newfound technical expertise to create meaningful and user-friendly digital experiences.
+           Thank you for visiting my portfolio, and I look forward to connecting with you!</p>
+    </div>
+
+
+    <!--PROJECTS-->
+
+    <div class="projects" id="projects">
+        <h3 id="project-title">Projects</h3>
+        <button class="showprojects" id="showprojects">Show projects</button>
+
+        <p class="secret-p" id="secret-p" style="display: none;">Hello, fellow internet explorer! 
+            <br><br>You’ve arrived at my portfolio, but right now, it’s a bit like a blank canvas—exciting, yet empty. 
+            Don’t worry, though! I’m cooking up some amazing projects that will be popping up here soon. 
+        <br><br> In the meantime, feel free to take a virtual stroll and imagine all the creativity that’s just around the corner. 
+        Stay tuned for the artistic explosion! </p>
+        <script src="./script.js"></script>
+    </div>
+
+    
+
+
+    <!--CONTACT ME-->
+    <div class="contactme" id="contactme">
+        <h3>Contact me</h3>
+        <h4>Write a message here or find me on <a class="linkedin" href="https://www.linkedin.com/in/roberto-doto-12576a125/" target="_blank"><span style="color: rgb(255, 255, 255);">Linkedin</span></a></h4>
+        
+        <form>
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fmail">Email:</label><br>
+            <input type="text" id="fmail" name="fmail"><br>
+            <label for="fmessage">Message:</label><br>
+            <textarea id="fmessage" name="fmessage">Write you message here!</textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
