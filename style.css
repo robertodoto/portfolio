@@ -165,12 +165,16 @@ a:visited{
   }
 
   h4 { 
+    @media screen and(max-width:768px){
+      padding: 0px;
+    }
     background-color: rgb(21, 20, 20);
     color: rgb(89, 101, 70);
   }
 
   .linkedin { 
     padding: 0.02rem;
+    border: 0.5rem;
   }
 
   form {
@@ -191,9 +195,9 @@ a:visited{
 
   textarea { 
     @media screen and (max-width: 768px) {
-    width: 3rem;
+    width: 6rem;
     height: 7rem;
-  };
+    }
     background-color: rgb(51, 50, 50);
     color: rgb(255, 255, 255);
     width: 12rem;
