@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/50b01949c7.js" crossorigin="anonymous"></script>
     
 </head>
 
 <body>
     <!-- HEADER -->
-    <nav>
+    <nav class="topnav">
         <ul>
             <li><a href="#aboutme">About me</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -23,7 +24,9 @@
 
     <div id="firstimpact" class="firstimpact">
         <h1>Roberto Doto</h1>
-        <h3 class="developer">Full stack developer</h3>
+        <h3 class="developer">Front End Developer</h3>
+        <h3 class="developer">Back End Developer - in progress</h3>
+        <h3 class="developer">Full Stack Developer - in progress</h3>
         <img src="./media/DSCF2593.jpg" alt="Roberto Doto">
         <h2>Personal Portfolio</h2>
     </div>
@@ -37,7 +40,8 @@
           <br><br>Throughout my teaching career, I developed a passion for helping others connect through language and culture. 
           However, I felt a strong desire to embrace new challenges and explore the world of technology. 
           This motivated me to enroll in the Full Stack Engineer course at Codecademy, 
-          where I am honing my skills in web development and programming.
+          where I am honing my skills in web development and programming. 
+          <br><br>At the moment, I already get the Codecademy Front End Certification and I'm going on with the Back End path.
           <br><br>I am excited to merge my educational background with 
           my newfound technical expertise to create meaningful and user-friendly digital experiences.
            Thank you for visiting my portfolio, and I look forward to connecting with you!</p>
@@ -64,17 +68,13 @@
     <!--CONTACT ME-->
     <div class="contactme" id="contactme">
         <h3>Contact me</h3>
-        <h4>Write a message here or find me on <a class="linkedin" href="https://www.linkedin.com/in/roberto-doto-12576a125/" target="_blank"><span style="color: rgb(255, 255, 255);">Linkedin</span></a></h4>
+        <nav class="contact-nav">
+            <button type="button" class="btn"><a class="navbar-brand" href="https://www.linkedin.com/in/roberto-doto/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></button>
+            <button type="button" class="btn"><a class="navbar-brand" href="https://github.com/robertodoto" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></button>
+            <button type="button" class="btn"><a class="navbar-brand" href="mailto:rob22@live.it" target="_blank"><i class="fa-solid fa-envelope"></i> Email</a></button> 
+        </nav>
         
-        <form>
-            <label for="fname">Name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="fmail">Email:</label><br>
-            <input type="text" id="fmail" name="fmail"><br>
-            <label for="fmessage">Message:</label><br>
-            <textarea id="fmessage" name="fmessage" placeholder="Write you message here!"></textarea><br>
-            <button type="submit">Submit</button>
-        </form>
+        
     </div>
 
 
