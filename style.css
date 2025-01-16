@@ -164,20 +164,36 @@ a:visited{
     align-content: center;
     width: auto;
     margin: auto;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     background-color: rgb(21, 20, 20);
   }
 
   .contact-nav {
     @media screen and (max-width: 768px) {
       font-size: 12px;
+      display: block; 
+      justify-content: space-evenly;
+      cursor: pointer;
     }
     display: flex;
     justify-content: center;
     background-color: rgb(21, 20, 20);
   }
 
+  i {
+    @media screen and (max-width: 768px) {
+      display: flex;
+      padding: 5px;
+      margin-bottom: 25px;
+    }
+  }
+
   .btn {
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+      display: block;
+      width: 100%;
+    }
     display: inline-block;
     border: 2px rgba(0, 0, 0, 0.9);
     background: rgb(21, 20, 20);
