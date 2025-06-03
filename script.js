@@ -1,15 +1,16 @@
 const sorry = document.getElementById('secret-p');
 const button = document.getElementById('showprojects');
 
-const showHiddenElement = (domELement) => {
-    if (domELement.style.display === 'none') {
-        domELement.style.display = 'block';
-        button.textContent = 'Hide projects';
+const showHiddenElement = (domElement) => {
+    const isHidden = window.getComputedStyle(domElement).display === 'none';
+    
+    if (isHidden) {
+        domElement.style.display = 'block';
+        button.textContent = 'Hide Projects';
     } else {
-        domELement.style.display = 'none';
-        button.textContent = 'Show porjects';
+        domElement.style.display = 'none';
+        button.textContent = 'Show Projects';
     }
-}
+};
 
-
-button.addEventListener('click', () => {showHiddenElement(sorry)});
+button.addEventListener('click', () => { showHiddenElement(sorry); });
